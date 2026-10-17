@@ -27,15 +27,6 @@ GameModel có một biến đối tượng là deck, có kiểu Deck và dùng �
 - Phương thức newGame()
 
 Mỗi lần bắt đầu ván chơi, newGame() tạo một đối tượng Deck mới và gán vào deck. Trước lần gọi đầu tiên, deck có giá trị null. Khi gọi nhiều lần, bộ bài được thay mới nhưng GameModel vẫn là đối tượng dùng chung ban đầu.
-
-- Vai trò của các file
-
-- GameModel.java: cài đặt Singleton và phương thức newGame().
-- Deck.java: lớp bộ bài dạng khung để chương trình biên dịch và chạy độc lập. Lớp chưa chứa các lá bài, chưa có chức năng xáo hoặc chia bài.
-- Main.java: lấy GameModel hai lần, so sánh hai tham chiếu và gọi newGame() để minh họa.
-
-Bản này tạo Deck mới trong newGame(). Mẫu của sách dùng lớp Deck có sẵn và gọi shuffle() để xáo lại bộ bài. Bản này minh họa cơ chế Singleton và việc tạo đối tượng Deck, chưa mô phỏng một bộ bài thực tế.
-
 - Chạy thử
 
 Cài JDK, mở terminal tại thư mục dự án và chạy:
