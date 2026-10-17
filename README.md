@@ -1,20 +1,6 @@
-# Exercise 9 — Thiết kế GameModel dùng Singleton
-
-## Đề bài
-
+Exercise 9
 Using the Singleton Design Pattern, design a `GameModel` class that is a Singleton. The class should have a single instance variable of type `Deck` and initialize the deck whenever a `newGame()` method is called. The class can remain a stub, meaning that it does not need to do anything else.
 
-## Mục tiêu và giải pháp
-
-Chương trình sử dụng Java. `GameModel` được thiết kế theo mẫu Singleton với cách khởi tạo sẵn (eager initialization). Khi lớp được khởi tạo, một đối tượng duy nhất được lưu trong trường `INSTANCE`. Mọi lời gọi `getInstance()` đều trả về đối tượng này.
-
-| Thành phần | Ý nghĩa |
-| --- | --- |
-| `private static final GameModel INSTANCE` | Lưu đối tượng dùng chung của lớp; không cho phép gán lại tham chiếu. |
-| `private GameModel()` | Không cho phép mã bên ngoài gọi `new GameModel()`. |
-| `public static GameModel getInstance()` | Cung cấp điểm truy cập đối tượng duy nhất. |
-| `private Deck deck` | Biến đối tượng duy nhất, lưu bộ bài hiện tại. |
-| `newGame()` | Thực hiện `deck = new Deck()` để tạo bộ bài mới mỗi lần gọi. |
 
 `INSTANCE` là biến static thuộc về lớp, không phải instance variable. Vì vậy, lớp vẫn chỉ có một instance variable là `deck`, đúng theo đề bài. Từ khóa `final` của lớp ngăn kế thừa; từ khóa `final` của `INSTANCE` không làm cho bộ bài trở thành bất biến.
 
