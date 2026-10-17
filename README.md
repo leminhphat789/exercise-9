@@ -53,5 +53,3 @@ Game 1 started.
 Game 2 started.
 Same instance after newGame: true
 ```
-
-Kết quả true cho thấy các lần gọi getInstance() trả về cùng một đối tượng. Các thông báo bắt đầu ván chơi chỉ cho biết newGame() đã được gọi, không kiểm tra nội dung bộ bài.
