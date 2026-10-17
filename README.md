@@ -2,7 +2,7 @@
 
 ## Yêu cầu
 
-Thiết kế lớp GameModel theo mẫu Singleton, có một biến đối tượng kiểu Deck và khởi tạo bộ bài mỗi khi gọi newGame(). Bài chỉ yêu cầu lớp dạng khung, chưa cần xử lý toàn bộ trò chơi.
+Thiết kế lớp GameModel theo mẫu Singleton, có một biến đối tượng kiểu Deck và khởi tạo bộ bài mỗi khi gọi newGame().
 
 ## Cách thực hiện
 
