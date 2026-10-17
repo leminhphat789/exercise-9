@@ -1,4 +1,3 @@
-/** Singleton model for Exercise 9. */
 public final class GameModel {
     private static final GameModel INSTANCE = new GameModel();
 
