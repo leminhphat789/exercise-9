@@ -36,7 +36,7 @@ javac -encoding UTF-8 -d out src/Deck.java src/GameModel.java src/Main.java
 java -cp out Main
 ```
 
-Kết quả mong đợi:
+Kết quả mong đợi: 
 
 ```text
 Same GameModel instance: true
