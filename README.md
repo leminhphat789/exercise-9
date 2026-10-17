@@ -1,4 +1,4 @@
-Exercise 9 - Giải thích giải pháp Singleton
+Exercise 9 
 
 - Yêu cầu
 
