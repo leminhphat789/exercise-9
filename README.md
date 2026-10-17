@@ -1,7 +1,7 @@
 Exercise 9
 ## Mục tiêu và giải pháp
 
-Chương trình sử dụng Java. `GameModel` được thiết kế theo mẫu Singleton với cách khởi tạo sẵn (eager initialization). Khi lớp được khởi tạo, một đối tượng duy nhất được lưu trong trường `INSTANCE`. Mọi lời gọi `getInstance()` đều trả về đối tượng này.
+Chương trình sử dụng Java. (GameModel) được thiết kế theo mẫu Singleton với cách khởi tạo sẵn (eager initialization). Khi lớp được khởi tạo, một đối tượng duy nhất được lưu trong trường (INSTANCE). Mọi lời gọi ( getInstance() ) đều trả về đối tượng này.
 
 | Thành phần | Ý nghĩa |
 | --- | --- |
